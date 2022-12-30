@@ -9,6 +9,8 @@ object PatternMatchingErrors extends App {
         }
     }
     println(patternMatching(variable=List(1,2,3)))
+    // Triggers MatchError
+    println(patternMatching(variable=Map("first" -> "Mansi", "last" -> "Babbar")))
 }
 
 
