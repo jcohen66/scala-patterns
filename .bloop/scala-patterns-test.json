@@ -1,0 +1,162 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "scala-patterns-test",
+        "directory": "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns",
+        "workspaceDir": "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns",
+        "sources": [
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\src\\test\\scala",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\src\\test\\scala-2.12",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\src\\test\\scala-2",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\src\\test\\java",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\target\\scala-2.12\\src_managed\\test",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\candidate.scala",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\constant.scala",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\constructor.scala",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\extractors.scala",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\lists.scala",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\options.scala",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\patternguard.scala",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\sealedclass.scala",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\sequence.scala",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\tuples.scala",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\typed.scala",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\varoable.scala",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\wildcards.scala"
+        ],
+        "dependencies": [
+            "scala-patterns"
+        ],
+        "classpath": [
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\.bloop\\scala-patterns\\scala-2.12\\classes",
+            "C:\\Users\\jcohe\\.sbt\\boot\\scala-2.12.12\\lib\\scala-library.jar"
+        ],
+        "out": "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\.bloop\\scala-patterns",
+        "classesDir": "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\.bloop\\scala-patterns\\scala-2.12\\test-classes",
+        "resources": [
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\src\\test\\resources",
+            "C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns\\target\\scala-2.12\\resource_managed\\test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.12",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\jcohe\\.sbt\\boot\\scala-2.12.12\\lib\\jansi.jar",
+                "C:\\Users\\jcohe\\.sbt\\boot\\scala-2.12.12\\lib\\jline.jar",
+                "C:\\Users\\jcohe\\.sbt\\boot\\scala-2.12.12\\lib\\scala-compiler.jar",
+                "C:\\Users\\jcohe\\.sbt\\boot\\scala-2.12.12\\lib\\scala-library.jar",
+                "C:\\Users\\jcohe\\.sbt\\boot\\scala-2.12.12\\lib\\scala-reflect.jar",
+                "C:\\Users\\jcohe\\.sbt\\boot\\scala-2.12.12\\lib\\scala-xml_2.12.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jdk1.8.0_341\\jre",
+                "options": [
+                    "-Duser.dir=C:\\Users\\jcohe\\Documents\\VisualStudioProjects\\scala-patterns"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\jcohe\\.sbt\\boot\\scala-2.12.12\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\jcohe\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.12\\scala-library-2.12.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.12",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\jcohe\\.sbt\\boot\\scala-2.12.12\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\jcohe\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.12\\scala-library-2.12.12-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
